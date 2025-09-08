@@ -6,3 +6,21 @@ This project showcases a simple blog landing page with navigation, hero section,
 
 ## Features
 - Responsive design (mobile-first)
+- Navigation bar with mobile menu
+- Hero seaction with headline and image
+- Content section with post headlines and excerpt.
+- Contact form
+
+---
+
+
+## Project Structure
+
+blog-homepage/
+│
+├── index.html    #Main HTML page
+├── styles.css    # Stylesheet
+├── js/           #JavaScript
+│ └── script.js   # Mobile-menu
+├── images/       # Project images & icon
+└── README.md     # Project documentation
