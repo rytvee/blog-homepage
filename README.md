@@ -6,7 +6,8 @@ This project showcases a simple blog landing page with navigation, hero section,
 
 ## Live Demo
 You can visist directly from your web browser:
-https://rytvee.github.io/blog-homepage/
+[Blog Homepage](https://rytvee.github.io/blog-homepage/)
+
 ---
 
 ## Features
