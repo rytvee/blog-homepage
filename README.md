@@ -1,5 +1,5 @@
 # Blog homepage
-A responsive blog homepage built with **HTML, CSS, and JavaScript**.
+A responsive blog homepage built with **HTML**, **CSS**, and **JavaScript**.
 This project showcases a simple blog landing page with navigation, hero section, featured content, and a contact form.
 
 ---
@@ -23,12 +23,11 @@ You can visist directly from your web browser:
 ```text
 blog-homepage/
 │
-├── index.html    #Main HTML page
-├── styles.css    # Stylesheet
-├── js/           #JavaScript
-│ └── script.js   # Mobile-menu
-├── images/       # Project images & icon
-└── README.md     # Project documentation
+├── index.html      # Main HTML page
+├── styles.css      # Stylesheet
+├── mobile-menu.js  # Mobile-menu script
+├── images/         # Project images
+└── README.md       # Project documentation
 ```
 
 ---
