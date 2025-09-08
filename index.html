@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MY BLOG</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+<body>
+  <div class="wrap">
+    <header>
+  <div style="display:flex;gap:16px;align-items:center">
+    <button class="menu-toggle" aria-label="Toggle Menu">
+  <i class="fas fa-bars"></i>
+</button>
+    <div class="brand">MY<span style="color:var(--accent)">•</span>BLOG</div>
+  </div>
+
+  <nav aria-label="main">
+    <a href="#">Tech</a>
+    <a href="#">Culture</a>
+    <a href="#">Science</a>
+    <a href="#">Business</a>
+  </nav>
+
+  <input type="text" class="search" placeholder="Search" style="text-align: left;">
+</header>
+
+
+    <main class="grid">
+      <section>
+        <article class="hero">
+          <div class="img" role="img" aria-label="Hero image"></div>
+          <div class="meta">
+            <div class="kicker">Feature</div>
+            <h1 class="title">How tech changed the way we think about privacy</h1>
+            <p class="excerpt">From subtle defaults to always-on sensors, the modern connected world nudges us toward sharing more than we realise. What this means for our public and private lives.</p>
+            <div class="byline">By <strong>Jane Doe</strong> • Sep 2, 2025</div>
+          </div>
+        </article>
+
+        <div class="cards">
+          <article class="card">
+            <img src="images/card-1.png" alt="thumb">
+            <div>
+              <h3>Inside the next big chip</h3>
+              <p class="excerpt default">Engineers race to keep Moore's law alive with new materials and design tricks.</p>
+            </div>
+            <p class="excerpt small-screen">Engineers race to keep Moore's law alive with new materials and design tricks.</p>
+          </article>
+
+          <article class="card">
+            <img src="images/card-2.png" alt="thumb">
+            <div>
+              <h3>Designing for attention</h3>
+              <p class="excerpt default">What UI designers get wrong about human attention — and how to fix it.</p>
+            </div>
+            <p class="excerpt small-screen">What UI designers get wrong about human attention — and how to fix it.</p>
+          </article>
+
+          <article class="card">
+            <img src="images/card-3.png" alt="thumb">
+            <div>
+              <h3>Biotech startups to watch</h3>
+              <p class="excerpt default">Small teams, big ideas — the startups aiming to rewrite medicine.</p>
+            </div>
+              <p class="excerpt small-screen">Small teams, big ideas — the startups aiming to rewrite medicine.</p>
+
+          </article>
+
+          <article class="card">
+            <img src="images/card-4.png" alt="thumb">
+            <div>
+              <h3>The subtle ethics of AI</h3>
+              <p class="excerpt default">We need better guardrails before models make real decisions.</p>
+            </div>
+            <p class="excerpt small-screen">We need better guardrails before models make real decisions.</p>
+
+          </article>
+        </div>
+      </section>
+
+      <aside class="sidebar">
+        <div class="widget">
+          <h4>Latest</h4>
+          <div style="display:flex;flex-direction:column;gap:10px">
+            <a href="#" style="color:inherit;text-decoration:none"><strong>Quantum networks get real</strong><div style="color:var(--muted);font-size:13px">By A. Researcher</div></a>
+            <a href="#" style="color:inherit;text-decoration:none"><strong>Privacy in the age of sensors</strong><div style="color:var(--muted);font-size:13px">By J. Doe</div></a>
+          </div>
+        </div>
+
+        <div class="widget">
+          <h4>Trending</h4>
+          <div class="trend">
+            <img src="images/card-5.png" alt="">
+            <div>
+              <strong>Augmented reality's next act</strong>
+              <div class="default" style="color:var(--muted);font-size:13px;">Is hardware finally ready?</div>
+            </div>
+            <div class="small-screen" style="color:var(--muted);font-size:13px;">Is hardware finally ready?</div>
+          </div>
+        </div>
+
+        <div class="widget">
+          <h4>Subscribe</h4>
+          <p style="color:var(--muted);font-size:13px;">Get the best stories in your inbox.</p>
+          <form action="">
+            <input type="text" placeholder="Enter email">
+            <button>Subscribe</button>
+          </form>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      © 2025 my<span style="color:var(--accent)">.</span>blog
+    </footer>
+  </div>
+  <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const toggle = document.querySelector(".menu-toggle");
+  const nav = document.querySelector("nav");
+  const icon = toggle.querySelector("i");
+
+  toggle.addEventListener("click", () => {
+    nav.classList.toggle("show");
+
+    if (nav.classList.contains("show")) {
+      icon.classList.remove("fa-bars");
+      icon.classList.add("fa-xmark");
+    } else {
+      icon.classList.remove("fa-xmark");
+      icon.classList.add("fa-bars");
+    }
+  });
+});
+
+</script>
+
+</body>
+</html>
