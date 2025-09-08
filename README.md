@@ -15,7 +15,7 @@ This project showcases a simple blog landing page with navigation, hero section,
 
 
 ## Project Structure
-
+```text
 blog-homepage/
 │
 ├── index.html    #Main HTML page
@@ -24,3 +24,4 @@ blog-homepage/
 │ └── script.js   # Mobile-menu
 ├── images/       # Project images & icon
 └── README.md     # Project documentation
+```
