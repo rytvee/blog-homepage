@@ -4,6 +4,11 @@ This project showcases a simple blog landing page with navigation, hero section,
 
 ---
 
+## Live Demo
+You can visist directly from your web browser:
+https://rytvee.github.io/blog-homepage/
+---
+
 ## Features
 - Responsive design (mobile-first)
 - Navigation bar with mobile menu
@@ -12,7 +17,6 @@ This project showcases a simple blog landing page with navigation, hero section,
 - Contact form
 
 ---
-
 
 ## Project Structure
 ```text
@@ -25,3 +29,8 @@ blog-homepage/
 ├── images/       # Project images & icon
 └── README.md     # Project documentation
 ```
+
+---
+
+## License
+This project is free to use and modify
