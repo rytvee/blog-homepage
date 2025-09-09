@@ -4,13 +4,13 @@ This project showcases a simple blog landing page with navigation, hero section,
 
 ---
 
-## Live Demo
+## 🌐 Live Demo
 You can visist directly from your web browser:
 [Blog Homepage](https://rytvee.github.io/blog-homepage/)
 
 ---
 
-## Features
+## ✨ Features
 - Responsive design (mobile-first)
 - Navigation bar with mobile menu
 - Hero seaction with headline and image
@@ -19,7 +19,7 @@ You can visist directly from your web browser:
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 ```text
 blog-homepage/
 │
@@ -32,5 +32,13 @@ blog-homepage/
 
 ---
 
-## License
+## 🚀 Getting Started
+- Clone the repository
+```
+git clone https://github.com/rytvee/blog-homepage.git
+cd blog-homepage
+```
+- Open `index.html`, or use a local server like Live Server in VS Code.
+
+## 📜 License
 This project is free to use and modify
