@@ -1,16 +1,16 @@
-# 📰 Blog homepage
+# Blog homepage
 A responsive blog homepage built with **HTML**, **CSS**, and **JavaScript**.
 This project showcases a simple blog landing page with navigation, hero section, featured content, and a contact form.
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 You can visist directly from your web browser:
 [Blog Homepage](https://rytvee.github.io/blog-homepage/)
 
 ---
 
-## ✨ Features
+## Features
 - Responsive design (mobile-first)
 - Navigation bar with mobile menu
 - Hero seaction with headline and image
@@ -19,7 +19,7 @@ You can visist directly from your web browser:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```text
 blog-homepage/
 │
@@ -32,7 +32,7 @@ blog-homepage/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 - Clone the repository
 ```
 git clone https://github.com/rytvee/blog-homepage.git
@@ -40,5 +40,5 @@ cd blog-homepage
 ```
 - Open `index.html`, or use a local server like Live Server in VS Code.
 
-## 📜 License
+## License
 This project is free to use and modify
